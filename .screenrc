@@ -3,11 +3,10 @@
 # enabled if there is no hardstatus setting for your terminal
 hardstatus on
 hardstatus alwayslastline
-hardstatus string "%{.wB}%-w%{.bW}%n %t%{-}%+w %=%{..B} %H %{..B} %d-%m "
+hardstatus string "%{.wB}%-w%{.bW}%n %t%{-}%+w %=%{..B} %H %{..B} %d-%m-%Y %0c:%s "
 
 # Default screens
 screen -h 5000 -t 'bash'     0
 screen -h 5000 -t 'bash'     1
-screen -L -h 5000 -t 'PHPLog'  9       tail -f /var/log/php.log
 select 0
 termcapinfo xterm ti@:te@
