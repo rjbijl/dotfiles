@@ -1,0 +1,9 @@
+[user]
+        name = Robert-Jan Bijl
+        email = rober-jan@prezent.nl
+[alias]
+        co = checkout
+        st = status
+[color]
+        ui = true
+
