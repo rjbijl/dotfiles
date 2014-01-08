@@ -99,3 +99,4 @@ if [ -f /etc/bash_completion ]; then
 fi
 
 export EDITOR=vim
+umask 0002
