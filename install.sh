@@ -4,3 +4,4 @@ ln -s ~/.dotfiles/.screenrc ~/.screenrc
 ln -s ~/.dotfiles/.profile ~/.profile
 ln -s ~/.dotfiles/.gitignore ~/.gitignore
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
