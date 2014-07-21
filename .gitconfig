@@ -1,12 +1,14 @@
 [user]
-        name = Robert-Jan Bijl
-        email = robert-jan@prezent.nl
+    name = Robert-Jan Bijl
+    email = robert-jan@prezent.nl
 [alias]
-        co = checkout
-        st = status
-        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue) <%an>%Creset' --abbrev-commit
-	ci = commit
+    co = checkout
+    st = status
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue) <%an>%Creset' --abbrev-commit
+    ci = commit
+[core]
+    excludesfile = /home/sander/.gitignore
 [color]
-        ui = true
-	diff = auto
-	status = auto
+    ui = true
+    diff = auto
+    status = auto
