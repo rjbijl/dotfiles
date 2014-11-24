@@ -7,7 +7,7 @@
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue) <%an>%Creset' --abbrev-commit
     ci = commit
 [core]
-    excludesfile = /home/sander/.gitignore
+    excludesfile = /home/robert-jan/.gitignore
 [color]
     ui = true
     diff = auto
