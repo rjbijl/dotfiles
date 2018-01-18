@@ -3,6 +3,7 @@
     email = robert-jan@prezent.nl
 [alias]
     co = checkout
+    cp = cherry-pick
     st = status
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue) <%an>%Creset' --abbrev-commit
     ci = commit
@@ -12,3 +13,5 @@
     ui = true
     diff = auto
     status = auto
+[push]
+	default = simple
