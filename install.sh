@@ -6,6 +6,4 @@ ln -s ~/.dotfiles/.gitignore ~/.gitignore
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
 
-# keybindings for keyup and keydown
-ln -s ~/.dotfiles/.inputrc ~/.inputrc
-bind -f ~/.inputrc
+ln -s ~/.dotfiles/gitsync ~/bin/gitsync
