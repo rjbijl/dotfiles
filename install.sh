@@ -1,9 +1,9 @@
 #!/bin/bash
-ln -s ~/.dotfiles/.bashrc ~/.bashrc
-ln -s ~/.dotfiles/.screenrc ~/.screenrc
-ln -s ~/.dotfiles/.profile ~/.profile
-ln -s ~/.dotfiles/.gitignore ~/.gitignore
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
+ln -sfn ~/.dotfiles/.bashrc ~/.bashrc
+ln -sfn ~/.dotfiles/.screenrc ~/.screenrc
+ln -sfn ~/.dotfiles/.profile ~/.profile
+ln -sfn ~/.dotfiles/.gitignore ~/.gitignore
+ln -sfn ~/.dotfiles/.gitconfig ~/.gitconfig
+ln -sfn ~/.dotfiles/.tmux.conf ~/.tmux.conf
 
-ln -s ~/.dotfiles/gitsync ~/bin/gitsync
+ln -sfn ~/.dotfiles/gitsync ~/bin/gitsync
