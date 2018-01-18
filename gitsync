@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -e
+
+BRANCH=$1
+BASE=${2-master}
+
+git checkout $BRANCH
+git merge $BASE
+git push
+
+git checkout $BASE
