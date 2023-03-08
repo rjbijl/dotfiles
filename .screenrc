@@ -3,7 +3,7 @@
 # enabled if there is no hardstatus setting for your terminal
 hardstatus on
 hardstatus alwayslastline
-hardstatus string "%{.wB}%-w%{.bW}%n %t%{-}%+w %=%{..B} %H %{..B} %d-%m-%Y %0c:%s "
+hardstatus string "%{.wB}%-w%{.bW}%n %t%{-}%+w %=%{..B} %H %{..B} %d-%m-%Y %0c "
 
 # Default screens
 screen -h 5000 -t 'bash'     0
