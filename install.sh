@@ -1,4 +1,7 @@
 #!/bin/bash
+# download the git prompt helper file
+curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+
 ln -sfn ~/.dotfiles/.bashrc ~/.bashrc
 ln -sfn ~/.dotfiles/.screenrc ~/.screenrc
 ln -sfn ~/.dotfiles/.profile ~/.profile
