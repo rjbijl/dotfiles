@@ -2,6 +2,7 @@
 # download the git prompt helper file
 echo 'Downloading git prompt file'
 curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+curl -o ~/.git-completion.bash https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
 
 echo 'Creating symlinks for config files'
 ln -sfn ~/.dotfiles/.bashrc ~/.bashrc
