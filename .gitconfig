@@ -1,17 +1,38 @@
-[user]
-    name = Robert-Jan Bijl
-    email = robert-jan@prezent.nl
 [alias]
+    ci = commit
     co = checkout
     cp = cherry-pick
-    st = status
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue) <%an>%Creset' --abbrev-commit
-    ci = commit
-[core]
-    excludesfile = ~/.gitignore
+    st = status
+[branch]
+    sort = -committerdate
 [color]
-    ui = true
     diff = auto
     status = auto
+    ui = true
+[column]
+    ui = auto
+[commit]
+    verbose = true
+[core]
+    excludesfile = ~/.gitignore
+[fetch]
+    all = true
+    prune = true
+    pruneTags = true
+[init]
+    defaultBranch = main
 [push]
+    autoSetupRemote = true
 	default = simple
+    followTags = true
+[rebase]
+    autoSquash = true
+    autoStash = true
+    updateRefs = true
+[rerere]
+    autoupdate = true
+    enabled = true
+[user]
+    email = robert-jan@prezent.nl
+    name = Robert-Jan Bijl
